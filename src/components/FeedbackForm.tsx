@@ -1,3 +1,10 @@
 export default function FeedbackForm() {
-  return <div>FeedbackForm</div>;
+  return (
+    <div>
+      <form>
+        <textarea placeholder="Enter your Feedback Here" />
+      </form>
+      FeedbackForm
+    </div>
+  );
 }

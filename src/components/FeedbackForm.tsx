@@ -1,4 +1,8 @@
+import { useState } from "react";
+
 export default function FeedbackForm() {
+  const [text, setText] = useState("");
+
   return (
     <form className="form">
       <textarea id="feedback-textarea" placeholder="abc" />

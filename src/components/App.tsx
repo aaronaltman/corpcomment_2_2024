@@ -5,7 +5,6 @@ import HashtagList from "./HashtagList";
 function App() {
   return (
     <>
-      <h1>corpComment APP</h1>
       <Footer />
       <Container />
       <HashtagList />

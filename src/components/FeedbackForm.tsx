@@ -10,11 +10,16 @@ export default function FeedbackForm() {
     <form className="form">
       <textarea
         onChange={(event) => {
-          setText(event.target.value);
+          const newText = event.target.value;
+          if (newText.length > MAX_CHARS) {
+            return;
+          }
+          setText(newText);
         }}
         value={text}
         id="feedback-textarea"
         placeholder="abc"
+        spellCheck={false}
       />
       <label htmlFor="feedback-textarea">
         Enter Your Corporate Feedback Here. Remember to # the company name.

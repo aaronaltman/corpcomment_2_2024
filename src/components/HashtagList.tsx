@@ -1,17 +1,17 @@
 export default function HashtagList() {
   return (
-    <>
+    <section>
       <ul className="hashtags">
         <li>
-          <button>HashtagList</button>
+          <button>#HashtagList</button>
         </li>
         <li>
-          <button>Mcdonald's</button>
+          <button>#HashtagList</button>
         </li>
         <li>
-          <button>Nike</button>
+          <button>#HashtagList</button>
         </li>
       </ul>
-    </>
+    </section>
   );
 }

@@ -98,8 +98,9 @@ body {
 
 /* CONTAINER */
 .container {
-  width: 715px;
-  height: 100%;
+  width: 100%; /* use full width of the screen */
+  max-width: 715px; /* but don't exceed 715px */
+  height: auto; /* adjust height automatically */
   border-radius: 6px;
   overflow: hidden;
   animation: intro 0.4s;
@@ -500,8 +501,8 @@ form button span::selection {
 /* HASHTAGS */
 .hashtags {
   position: absolute;
-  right: -137px;
-  top: 0px;
+  right: 100px;
+  top: 200px;
 }
 
 .hashtags li {

@@ -4,11 +4,11 @@ import HashtagList from "./HashtagList";
 
 function App() {
   return (
-    <>
+    <main>
       <Footer />
       <Container />
       <HashtagList />
-    </>
+    </main>
   );
 }
 

@@ -8,7 +8,7 @@ export default function Header() {
     <header>
       <Pattern />
       <Logo />
-      <PageHeading />x
+      <PageHeading />
       <FeedbackForm />
     </header>
   );
